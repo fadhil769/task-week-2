@@ -281,6 +281,10 @@ footer {
 
 /* Mobile-Responsive Styles */
 @media (max-width: 768px) {
+  .container {
+    width: 430px;
+    overflow: hidden;
+  }
   /* Header */
   .header {
     flex-direction: column;
@@ -331,6 +335,9 @@ footer {
   .banner {
     height: 80px;
     width: 1728px;
+
+    /* width: 200px; */
+    /* align-items: center; */
     padding: 12px auto;
     display: flex;
     flex-direction: row;
